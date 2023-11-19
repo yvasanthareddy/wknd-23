@@ -52,6 +52,19 @@
      <sonar.login>sqa_529c1e3fdd942982200db21143f33fa8f3ccd251</sonar.login>
     </properties>
 
+ <distributionManagement>
+  <repository>
+   <id>nexus></id>
+    <name>WeekendRelease</name>
+   <url>http://45.79.125.39:8081/repository/weekend-Release/</url>
+  </repository>
+
+  <snapshotRepository>
+   <id>nexus</id>
+   <name>WeekendSnapshot</name>
+   <url>http://45.79.125.39:8081/repository/wekeend-sanpshot/</url>
+  </snapshotRepository>
+   
     <build>
         <plugins>
             <!-- Maven Release Plugin -->
