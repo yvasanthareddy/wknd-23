@@ -48,7 +48,7 @@
         <bnd.version>5.0.0</bnd.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-     <sonar.host.url>http://localhost:9000/projects</sonar.host.url>
+     <sonar.host.url>http://localhost:9000/</sonar.host.url>
      <sonar.login>sqa_529c1e3fdd942982200db21143f33fa8f3ccd251</sonar.login>
     </properties>
 
